@@ -29,4 +29,115 @@
 6. Complications: 
     - separation dots in header
     - icon
+
+Рекомендуемые имена классов
+header — вся шапка;
+header__menu — контейнер навигации;
+header__links-list — список ссылок;
+header__links-list-item — пункт списка ссылок;
+header__links-list-item_no-bullit — этот класс может потребоваться, чтобы сделать ссылку без кружочка;
+header__link — ссылка;
+header__link_active — активная ссылка;
+header__logo — контейнер логотипа;
+header__logo-image — картинка с логотипом;
+address — контейнер с адресом;
+header__address — для выравнивания блока с адресом. В футере используется другое выравнивание.
 */
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  grid-template-areas: 
+  "navigation header-logo contacts";
+  align-items: center;
+}
+
+.header__menu {
+
+}
+
+.header__links-list { /*сделать pixelperfect и флексбокс*/
+  display: flex;
+  gap: 13px;
+  list-style-type: circle;
+  padding: 133px 36.52px 138px 50px;
+}
+
+.header__links-list-item_no-bullit {
+  list-style-type: none;
+}
+
+.header__logo-image {
+  display: block;
+  width: 148px;
+  height: 105px;
+}
+
+.address { /*сбросить стили браузера и задать свои*/
+  max-width: 474px; /*выровнять*/
+  padding: 95px 50px 100px 184px;
+  justify-self: end;
+}
+
+.cover {
+
+}
+
+.cover-header {
+
+}
+
+.discription {
+
+}
+
+.listing {
+
+}
+
+.h2 {
+
+}
+
+.lots {
+
+}
+
+.lot-one {
+
+}
+
+.lot-two {
+
+}
+
+.lot-three {
+
+}
+
+.learn-more {
+
+}
+
+.logo {
+
+}
+
+.about {
+
+}
+
+.about-text {
+
+}
+
+.footer {
+
+}
+
+.footer_menu {
+
+}
+
+.contacts {
+
+}
