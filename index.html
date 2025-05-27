@@ -44,46 +44,47 @@
     </header>
     <main>
       <div class="cover">
-        <h1 class="cover-header">
-          <span>ОНО</span>
-          <span>ТЕБЕ</span>
-          <span>НАДО</span>
+        <div class="overlay"></div>
+        <h1 class="cover__title">
+          <span class="aligned-text">ОНО</span>
+          <span class="aligned-text aligned-text_center">ТЕБЕ</span>
+          <span class="aligned-text aligned-text_right">НАДО</span>
         </h1>
-        <div class="discription">
-          <p>Аукцион вещей, вкоторые никто не верил</p>
-          <button>Сделать ставку</button>
+        <div class="cover__description">
+          <p class="cover__description-text">Аукцион вещей, вкоторые никто не верил</p>
+          <button class="bet-button">Сделать ставку</button>
         </div>
       </div>
-      <div class="listing">
-        <h2 class="h2">ЛОТЫ</h2>
-        <ul class="lots">
-          <li class="lot-one">
-            <article>
-              <img src="./images/card-lot-01.jpg">
+      <div class="lots">
+        <h2 class="lots__heading">ЛОТЫ</h2>
+        <ul class="lots__card">
+          <li class="lots__card-list-item">
+            <article class="card-link">
+              <img class="card_type_film" src="./images/card-lot-01.jpg">
               <div class="overlay"></div>
-              <h3>Фильм режиссёра, который бросил киношколу</h3>
-              <p>Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
+              <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
+              <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
             </article>
 
           </li>
-          <li class="lot-two">
-            <article>
-              <img src="./images/card-lot-02.jpg">
+          <li class="lots__card-list-item">
+            <article class="card">
+              <img class="card_type_book" src="./images/card-lot-02.jpg">
               <div class="overlay"></div>
-              <h3>Книга, где описан один скучный день из жизни рекламного агента</h3>
-              <p>Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
+              <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
+              <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
             </article>
           </li>
-          <li class="lot-three">
-            <article>
-              <img src="./images/card-lot-03.jpg">
+          <li class="lots__card-list-item">
+            <article class="card">
+              <img class="card_type_picture" src="./images/card-lot-03.jpg">
               <div class="overlay"></div>
-              <h3>Картина, которую повторит даже 5-летний сын маминой подруги</h3>
-              <p>Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
+              <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
+              <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
             </article>
           </li>
         </ul>
-        <a class="learn-more">посмотреть больше</a>
+        <a class="lots__look-more-link">посмотреть больше</a>
       </div>
       <div class="logo">
         <!--как-то сделать чёрный круг-->

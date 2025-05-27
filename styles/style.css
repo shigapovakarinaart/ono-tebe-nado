@@ -79,22 +79,73 @@ header__address — для выравнивания блока с адресом
 }
 
 .cover {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 757px;
+  background-image: url(/ono-tebe-nado/images/cover.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-transform: uppercase;
+  background-position: center;
+  color: black;
+  overflow: none;
+}
+
+/*.overlay { *ПОЧИНИТЬ ОВЕРЛЕЙ
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.cover > *:not(.overlay) {
+  position: relative;
+  z-index: 2;
+}*/
+
+.cover__title { /*пофиксить кавер*/
+  top: 165px;
+  right: 50px;
+  bottom: 207px;
+  left: 50px;
+  white-space: pre;
+  margin-bottom: 106px;
+}
+
+.aligned-text {
+  display: block;
+}
+
+.aligned-text_center {
+  text-align: center;
+}
+
+.aligned-text_right {
+  text-align: right;
+}
+
+.letter-spacing-extended { /*класс для управления межбуквенным расстоянием в местах, где есть эти акценты;*/
 
 }
 
-.cover-header {
+.no-letter-spacing { /*класс для обнуления общего межбуквенного расстояния у последней буквы;*/
 
 }
 
-.discription {
+.cover__description {
 
 }
 
-.listing {
+.cover__description-text {
 
 }
 
-.h2 {
+.bet-button {
 
 }
 
@@ -102,19 +153,19 @@ header__address — для выравнивания блока с адресом
 
 }
 
-.lot-one {
+.lots__heading {
 
 }
 
-.lot-two {
+.lots__card-list {
 
 }
 
-.lot-three {
+.lots__card-list-item {
 
 }
 
-.learn-more {
+.lots__look-more-link {
 
 }
 
