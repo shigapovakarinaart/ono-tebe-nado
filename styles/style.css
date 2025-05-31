@@ -114,6 +114,7 @@
   gap: 25px;
   list-style-type: none;
   flex-wrap: wrap;
+  margin-bottom: 30px;
 }
 
 .lots__card-list-item {
@@ -127,7 +128,7 @@
   height: 100%;
 }
 
-.card {
+.card { /*починить шрифты*/
   position: relative;
   display: flex;
   flex-direction: column;
@@ -173,8 +174,16 @@
   text-transform: uppercase;
   text-decoration: underline;
   font-weight: bold;
-  font-size: 22;
+  font-size: 22px;
 }
 
 .card__text {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.lots__look-more-link {
+  padding-left: 40px;
+  font-size: 20px;
+  text-decoration: underline;
 }
