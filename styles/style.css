@@ -95,9 +95,10 @@
 
 }
 
-.lots {
+.lots { /*ГОТОВО*/
   width: 1052px;
   height: 723px;
+  margin-bottom: 120px;
 }
 
 .lots__heading {
@@ -128,7 +129,7 @@
   height: 100%;
 }
 
-.card { /*починить шрифты*/
+.card {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -186,4 +187,55 @@
   padding-left: 40px;
   font-size: 20px;
   text-decoration: underline;
+}
+
+.about { /*СДЕЛАНО*/
+  display: grid;
+  grid-template-columns: 334px 1fr;
+  column-gap: 72px;
+  width: 1052px;
+  height: 595px;
+  margin-bottom: 180px;
+}
+
+.about__logo {
+  background-color: black;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%; /*НА БУДУЩЕЕ: СОЗДАЁТ КРУГ*/
+  margin: 35px 72px 320px 47px;
+}
+
+.about__logo-image {
+  width: 148px;
+  height: 114px;
+  z-index: 2;
+  margin: 64px 45.52px 62px 46.48px;
+}
+
+.about__column {
+  font-family: 'Raleway', sans-serif;
+  width: 693px;
+  justify-self: end;
+}
+
+.about__title {
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+  padding-top: 136px;
+  margin-bottom: 100px;
+}
+
+.about__text {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.about__text-paragraph {
+  margin-bottom: 24px;
+}
+
+.about__text-paragraph:last-child {
+  margin-bottom: 0px;
 }
