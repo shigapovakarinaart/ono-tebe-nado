@@ -27,7 +27,11 @@
         </ul>
       </nav>
       <a class="header__logo">
-        <img class="header__logo-image" src="./images/logo-black.svg" />
+        <img
+          class="header__logo-image"
+          src="./images/logo-black.svg"
+          alt="логотип компании"
+        />
       </a>
       <address class="address header__address">
         <ul class="address__list">
@@ -54,7 +58,7 @@
         </h1>
         <div class="cover__description">
           <p class="cover__description-text">
-            Аукцион вещей, вкоторые никто не верил
+            Аукцион вещей, в которые никто не верил
           </p>
           <button class="bet-button">Сделать ставку</button>
         </div>
@@ -65,7 +69,7 @@
           <li class="lots__card-list-item">
             <a href="#" class="card-link">
               <article class="card card_type_film">
-                <div class="overla"></div>
+                <div class="overlay"></div>
                 <h3 class="card__title">
                   Фильм режиссёра, который бросил киношколу
                 </h3>
@@ -80,7 +84,7 @@
           <li class="lots__card-list-item">
             <a href="#" class="card-link">
               <article class="card card_type_book">
-                <div class="overla"></div>
+                <div class="overlay"></div>
                 <h3 class="card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
                 </h3>
@@ -98,7 +102,7 @@
           <li class="lots__card-list-item">
             <a href="#" class="card-link">
               <article class="card card_type_picture">
-                <div class="overla"></div>
+                <div class="overlay"></div>
                 <h3 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
                 </h3>
@@ -116,7 +120,10 @@
       </section>
       <section class="about">
         <div class="about__logo">
-          <img class="about__logo-image" src="/ono-tebe-nado/images/logo-white.svg"/>
+          <img
+            class="about__logo-image"
+            src="/ono-tebe-nado/images/logo-white.svg"
+          />
         </div>
         <article class="about__column">
           <h2 class="about__title">Об аукционе</h2>
@@ -141,35 +148,62 @@
         </article>
       </section>
     </main>
-    <footer>
-      <address class="address">
-        <ul>
-          <li>
-            <a>+9 999 555 5555</a>
+    <footer class="footer">
+      <address class="footer__address">
+        <ul class="address__list">
+          <li class="header__link_active">
+            <a href="tel:+99995555555">+9 999 555 5555</a>
+          </li>
+          <li class="header__link_active">
+            <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
           </li>
           <li>
-            <a>info@sobaka.ge</a>
+            наб. Принсенграхт 263-265, <br>
+            Амстердам
           </li>
-          <li>наб. Принсенграхт 263- 265, Амстердам</li>
         </ul>
       </address>
-      <nav class="footer_menu">
-        <ul>
-          <li>главная</li>
-          <li>посмотреть лоты</li>
-          <li>об аукционе</li>
+      <nav class="footer__menu">
+        <ul class="footer__menu-list">
+          <li class="footer__menu-list-item">главная</li>
+          <li class="footer__menu-list-item footer__menu-link_active">
+            посмотреть лоты
+          </li>
+          <li class="footer__menu-list-item footer__menu-link_active">
+            об аукционе
+          </li>
         </ul>
       </nav>
-      <div class="social-media">
-        <a>
-          <img src="./images/yt.svg" />
-        </a>
-        <a>
-          <img src="./images/vk.svg" />
-        </a>
-        <a>
-          <img src="./images/pinterest.svg" />
-        </a>
+      <div>
+        <ul class="footer__social-list">
+          <li class="footer__social-list-item">
+            <a class="footer__social-link">
+              <img
+                class="footer__social-icon"
+                src="./images/yt.svg"
+                alt="логотип YouTube"
+              />
+            </a>
+          </li>
+          <li class="footer__social-list-item">
+            <a class="footer__social-link">
+              <img
+                class="footer__social-icon"
+                src="./images/vk.svg"
+                alt="логотип VK"
+              />
+            </a>
+          </li>
+          <li class="footer__social-list-item">
+            <a class="footer__social-link">
+              <img
+                class="footer__social-icon"
+                src="./images/pinterest.svg"
+                alt="логотип Pinterest"
+              />
+            </a>
+          </li>
+        </ul>
       </div>
     </footer>
   </body>
