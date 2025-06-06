@@ -1,4 +1,5 @@
-.header { /*DONE CHECKED*/
+.header {
+  /*DONE CHECKED*/
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
@@ -44,10 +45,10 @@
 
 .address {
   max-width: 240px;
+  margin-left: 184px;
   font-size: 18px;
   font-style: normal;
   line-height: 24.3px;
-  margin-left: 184px;
 }
 
 .address__list {
@@ -58,12 +59,12 @@
 
 .cover {
   position: relative;
+  padding: 165px 50px 50px 50px;
+  line-height: 28px;
   background-image: url(/ono-tebe-nado/images/cover.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 165px 50px 50px 50px;
-  line-height: 28px;
 }
 
 .overlay {
@@ -120,26 +121,27 @@
   height: 51px;
   border: 1px solid rgb(255, 255, 255);
   color: white;
-  font-size: 22px;
-  text-transform: uppercase;
-  background-color: transparent;
   font-family: "Raleway", sans-serif;
   font-weight: normal;
   font-size: 22px;
+  font-size: 22px;
+  text-transform: uppercase;
+  background-color: transparent;
 }
 
 .cover__description-text {
   z-index: 2;
   align-self: center;
-  text-transform: uppercase;
+  margin-right: 107px;
   font-family: "Raleway", sans-serif;
   font-weight: normal;
   font-size: 22px;
-  margin-right: 107px;
+  text-transform: uppercase;
   word-spacing: 18px;
 }
 
-.lots { /*DONE CHECKED*/
+.lots {
+  /*DONE CHECKED*/
   margin: 180px 24px 120px 24px;
 }
 
@@ -220,7 +222,8 @@
   text-decoration: underline;
 }
 
-.about { /*DONE CHECKED*/
+.about {
+  /*DONE CHECKED*/
   display: grid;
   grid-template-columns: 334px 1fr;
   margin: 0px 24px 180px 24px;
@@ -284,14 +287,15 @@
   list-style-type: none;
 }
 
-.footer__address { /*DONE CHECKED*/
-  align-content: center;
+.footer__address {
   justify-self: start;
+  /*DONE CHECKED*/
+  align-content: center;
+  margin-bottom: 81px;
+  margin-left: 50px;
+  font-size: 18px;
   font-style: normal;
   line-height: 24.3px;
-  font-size: 18px;
-  margin-left: 50px;
-  margin-bottom: 81px;
 }
 
 .footer__menu {
