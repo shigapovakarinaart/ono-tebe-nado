@@ -78,6 +78,7 @@
 }
 
 .cover__title {
+  display: grid;
   position: relative;
   z-index: 2;
   align-items: center;
@@ -123,7 +124,6 @@
   color: white;
   font-family: "Raleway", sans-serif;
   font-weight: normal;
-  font-size: 22px;
   font-size: 22px;
   text-transform: uppercase;
   background-color: transparent;
@@ -299,7 +299,7 @@
 }
 
 .footer__menu {
-  justify-items: center;
+  justify-self: center;
 }
 
 .footer__menu-list {
