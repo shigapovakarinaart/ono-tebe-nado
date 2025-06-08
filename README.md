@@ -1,1 +1,1 @@
-https://github.com/shigapovakarinaart/ono-tebe-nado
+https://github.com/shigapovakarinaart/ono-tebe-nado-fd
