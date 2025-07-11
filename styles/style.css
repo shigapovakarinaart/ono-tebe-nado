@@ -26,10 +26,6 @@
   list-style-type: circle;
 }
 
-.link__inactive {
-  text-decoration: underline;
-}
-
 .link__active {
   text-decoration: none;
 }
@@ -54,10 +50,9 @@
   font-style: normal;
   line-height: 24.3px;
   text-underline-offset: 4px;
-}
-
-.header__address {
-  margin-left: 184px;
+  justify-self: start;
+  align-content: center;
+  font-style: normal;
 }
 
 .address__list {
@@ -249,7 +244,7 @@
 .about__logo {
   width: 240px;
   height: 240px;
-  margin: 35px 72px 320px 47px;
+  margin: 35px 72px 0px 47px;
   border-radius: 50%;
   background-color: black;
 }
@@ -302,14 +297,6 @@
 .footer__menu-list,
 .footer__social-list {
   list-style-type: none;
-}
-
-.footer__address {
-  justify-self: start;
-  align-content: center;
-  margin-bottom: 81px;
-  margin-left: 50px;
-  font-style: normal;
 }
 
 .footer__menu {
