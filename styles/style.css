@@ -45,13 +45,15 @@
 }
 
 .address {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   max-width: 240px;
   font-size: 18px;
   font-style: normal;
   line-height: 24.3px;
   text-underline-offset: 4px;
-  justify-self: start;
-  align-content: center;
+  justify-self: end;
   font-style: normal;
 }
 
@@ -121,10 +123,6 @@
   display: flex;
   justify-content: space-between;
   color: white;
-}
-
-.letter-spacing-extended {
-  letter-spacing: 80%;
 }
 
 .bet-button {
@@ -292,6 +290,12 @@
   font-family: "Raleway", sans-serif;
   font-weight: normal;
   font-size: 18px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.footer__address {
+  justify-self: start;
 }
 
 .footer__menu-list,
@@ -311,7 +315,6 @@
 .footer__social-list {
   display: flex;
   justify-content: right;
-  padding-right: 50px;
   padding-bottom: 131px;
 }
 
